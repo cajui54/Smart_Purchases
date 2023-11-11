@@ -16,7 +16,7 @@ const ShowResults = () => {
         })
         
   return (
-    <Style.ShowResults> 
+    <Style.ShowResults value={currencyValue} > 
       <div>
         <span>Total em Caixa:</span>
         <GiMoneyStack/>

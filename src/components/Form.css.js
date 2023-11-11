@@ -2,12 +2,16 @@ import styled from "styled-components";
 
 export const Form = styled.div`
     width: 80%;
-    height: 400px;
-    margin: 50px auto;
+    min-height: 300px;
+    margin: 150px auto;
     border-radius: 5px;
     padding: 10px;
     box-sizing: border-box;
     background-color: #1e293b;
+
+    @media screen and (min-width: 500px) {
+        width: 300px; 
+    }
 `;
 
 export const Titles = styled.div`

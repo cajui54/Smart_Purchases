@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const InputContainer = styled.div`
     width: 90%;
     margin: 20px auto;
-
+    
     form {
         width: 100%;
         display: flex;
@@ -68,12 +68,29 @@ export const InputContainer = styled.div`
     form:nth-child(2) div label:nth-child(2) input{
         text-align: center;
     }
-    form:nth-child(2) button {
-        margin: 10px auto;
+    form:nth-child(2) button {  
         width: 90%;
         background-color: #34d399;
         color: #fff;
+        font-weight: bold;
     }
+    form:nth-child(2) button svg { 
+        margin-right: 10px;
+    }
+    form:nth-child(2) button:nth-child(2) { 
+        margin-top: 15px;
+    }
+    form:nth-child(2) button:nth-child(3) { 
+        margin-top: 10px;
+        background-color: #fbbf24;
+        border: none;
+    }
+    form:nth-child(2) button:nth-child(3):hover { 
+        border: 1px solid #fbbf24;
+        background-color: transparent;
+        color: #fbbf24;
+    }
+
     form:nth-child(2) button:hover {
         border: 1px solid #34d399;
         background-color: transparent;

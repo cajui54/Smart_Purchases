@@ -1,5 +1,11 @@
 import styled from "styled-components";
 
+const checkWitchColor = (value) => {
+    const colorDefaut = '#34d399';
+
+    return colorDefaut;
+}
+
 export const ShowResults = styled.div`
     display: flex;
     flex-direction: column;
@@ -31,8 +37,10 @@ export const ShowResults = styled.div`
         margin-left: 10px;
     }
     div p {
-        color: #34d399;
         font-size: 1.2rem;
+    }
+    div:nth-child(1) p { 
+        color: ${(props) => checkWitchColor(props.value)};
     }
     div:nth-child(2) p {
         color: #f43f5e;
