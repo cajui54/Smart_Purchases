@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const Form = styled.div`
     width: 80%;
     min-height: 300px;
-    margin: 150px auto;
+    margin: 50px auto;
     border-radius: 5px;
     padding: 10px;
     box-sizing: border-box;
