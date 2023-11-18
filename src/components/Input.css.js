@@ -13,7 +13,7 @@ export const InputContainer = styled.div`
     form label {
         display: inline-block;
         width: 100%;
-        margin: 0 10px;
+        margin: 5px 10px;
         background-color: #374151;
         border-radius: 10px;
         position: relative;
@@ -22,9 +22,9 @@ export const InputContainer = styled.div`
     form label span {
         color: #34d399;
         position: absolute;
-        top: -5px;
+        top: -10px;
         left: 10px;
-        font-size: 10px;
+        font-size: 15px;
     }
     form label input {
         background-color: transparent;
@@ -39,6 +39,7 @@ export const InputContainer = styled.div`
         color: #fff;
         letter-spacing: 1.5px;
         font-weight: bold;
+        font-size: 20px;
     }
     form button {
         border-radius: 10px;
@@ -73,6 +74,8 @@ export const InputContainer = styled.div`
         background-color: #34d399;
         color: #fff;
         font-weight: bold;
+        padding: 9px 0;
+        font-size: 15px;
     }
     form:nth-child(2) button svg { 
         margin-right: 10px;
